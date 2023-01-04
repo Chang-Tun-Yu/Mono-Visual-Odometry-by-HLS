@@ -8,11 +8,11 @@
 
 ## 1. Introduction
 This project is the hardware acceleration of mono visual odometry (VO) by 
-Xillinx Vitis HLS (high level systhesis). Visual odometry is an algorithm
-that detect the translation and rotation of an object (e.g robot). The 
-term "mono" means only one camera is used in the algorithm. Unlike sterio 
-VO, mono VO can not get a absolute distance of trace. It can only get the 
-shape of trace.
+Xillinx Vitis HLS (high level systhesis) tool. Visual odometry is an 
+algorithmthat detect the translation and rotation of an object (e.g robot). 
+The term "mono" means only one camera is used in the algorithm. Unlike 
+stereo VO, mono VO can not get a absolute distance of trace. It can only 
+get the shape of trace.
 
 We start out project from the source code in [libviso2](https://www.cvlibs.net/software/libviso/), which is a famous C++ library for VO.
 We have simplified the algorithm to make it possilbe to port on Xilinx U50 FPGA. The execution pipeline is shown in the following
