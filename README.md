@@ -32,7 +32,19 @@ There are three major optimization in our design
 For more optimization technique and their detail, please check the report under docs/
 
 ## 3. Folder structure
-
+```
+Mono-Visual-Odometry-by-HLS/
+├─ data/
+│  ├─ 2010_03_09_drive_0019_small/
+├─ docs/
+├─ impl_result/
+├─ report/
+├─ src/
+│  ├─ baseline/
+│  ├─ host/
+│  ├─ kernel_opt1/
+│  ├─ kernel_opt2/
+```
 ## 4. Build Setup
 We use Vitis IDE to build this project. The following step show how to rebuild the project
 1. open vitis IDE and create an empty project
